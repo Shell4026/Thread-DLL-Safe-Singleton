@@ -36,3 +36,7 @@ int main()
 class MyClass : public sh::core::Singleton<MyClass, false>
 ...
 ```
+
+
+## TODO
+생성자에 인자 전달
