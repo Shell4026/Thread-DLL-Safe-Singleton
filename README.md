@@ -29,3 +29,8 @@ int main()
   return 0;
 }
 ```
+DLL간 공유를 원하지 않는 경우
+```
+class MyClass : public sh::core::Singleton<MyClass, false>
+...
+```
